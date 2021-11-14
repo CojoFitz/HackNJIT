@@ -1,0 +1,218 @@
+a:link{ 
+	text-decoration: none; 
+	color: black;
+}
+a:hover{ text-decoration: none; }
+a:visited{ 
+	text-decoration: none; 
+	color: black;
+}
+a:active{ text-decoration: none; }
+
+button{
+	background-color: white;
+	cursor: pointer;
+	border-style: none;
+	outline: none;
+}
+iframe{
+    width: 100%;
+    height: 80%;
+}
+
+#forBody{
+	position: absolute;
+	width:  100%;
+	height:  100%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	margin-bottom: 20%;
+	background-color:black;
+	padding: 0%;
+	margin-left: 0%;
+	margin-top: 0%;
+	margin-right: 0%;
+	background-image:
+	radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+	radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+	radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+	radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+	background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+	background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
+
+#titleBox{
+	position: absolute;
+	width: 100%;
+	height: 15vmin;
+	margin: 0%;
+	padding: 0%;
+	background-color: rgb(87,87,87);
+	display: flex;
+	flex-direction: column;
+	border-bottom: dashed;
+	border-width: 3px;
+
+}
+
+#tabHolder{
+	position: relative;
+	left: 72%;
+	width: 100%;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	font-family:  'Share Tech Mono', monospace;
+	text-decoration: none;
+	color: black;
+
+}
+
+#titleText{
+	position: relative;
+	left: 65%;
+	top: 5%;
+	color: black;
+	font-family:  'Share Tech Mono', monospace;
+	font-size: 16px;
+	margin-top: 0%;
+	margin-bottom: 0%;
+}
+
+#otterBox{
+	position:  absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%,0%);
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	height: 100%;
+  	width: 80%;
+}
+
+#factWrapper{
+	position: relative;	
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	border-style: solid;
+  	border-color: black;
+  	margin-left: 5%;
+  	margin-right: 5%;
+  	padding-left: 1%;
+  	padding-right: 1%;
+  	border-top-left-radius: 10%;
+  	border-top-right-radius: 10%;
+  	border-bottom-left-radius: 10%;
+  	border-bottom-right-radius: 10%;	
+  	font-size: 14px;
+  	font-family:  'Share Tech Mono', monospace;
+}
+
+#picsReel{
+	position: absolute;
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+	left: 50%;
+	top: 15%;
+	width: 800px;
+	height: 500px;
+	transform: translate(-50%,-50%);
+	color: black;
+	font-family:  'Share Tech Mono', monospace;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	border-style: solid;
+  	border-color: black;
+  	background-color: white;
+	border-top-left-radius: 10%;
+  	border-top-right-radius: 10%;
+  	border-bottom-left-radius: 10%;
+  	border-bottom-right-radius: 10%;
+}
+
+#roddyRichWrapperAnimalFacts{
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	left: 50%;
+	top: 0%;
+	padding-top: 100px;
+	margin-bottom: 200px;
+	width: 800px;
+	transform: translate(-50%,0%);
+	color: black;
+	font-family:  'Share Tech Mono', monospace;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	border-style: solid;
+  	border-color: black;
+  	background-color: white;
+	border-top-left-radius: 30px;
+  	border-top-right-radius: 30px;
+  	border-bottom-left-radius: 30px;
+  	border-bottom-right-radius: 30px;
+}
+
+#factsWrap{
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	top: 7%;
+}
+#factsTitle{
+	position: relative;
+	color: black;
+	font-family:  'Share Tech Mono', monospace;
+	font-size: 16px;
+	justify-content: center;
+	text-align: center;
+	vertical-align: middle;
+	left: 25%;
+	top: 50%;
+	transform: translate(-50%,-15%);
+}
+#factsText{
+	position: relative;
+	color: black;
+	font-family:  'Share Tech Mono', monospace;
+	width: 80%;
+	padding-left: 10%;
+	padding-right: 10%;
+	top: 50px;
+	margin-bottom: 15%;
+}
+#animalPic{
+	height:  200px;
+	width: 300px;
+	position: relative;
+	left: 35%;
+}
+
+#leftArrow{
+	color: black;
+	font-family:  'Share Tech Mono', monospace;
+	font-size: 16;
+}
+#rightArrow{
+	color: black;
+	font-family:  'Share Tech Mono', monospace;
+	font-size: 16;
+}
+
+#anchor{
+	height: 400px;
+	width: 600px;
+	position: relative;
+	border-color: black;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+
+#tab{
+	margin-left: 5px;
+}
